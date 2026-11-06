@@ -1,0 +1,10 @@
+1.SSh service status:Unknown;further verifacation required.
+2.Firewaall:nftables ruleset was displayed successfully.
+3.UFW service;Not found.
+4.Automatic update;unattended-upgrades service not ffound.
+5.Password policy;Configuration file inspected.
+6.Account file permission; /etc/passwd and/etc/shadow permission inspected.
+7.System logs;journalctl displayed recent log entires.
+
+conclusion
+basic linux securityconfiguration checks were performed on the kali linux virtual machine.some service were unavaiable,so further configuration review may be requried.

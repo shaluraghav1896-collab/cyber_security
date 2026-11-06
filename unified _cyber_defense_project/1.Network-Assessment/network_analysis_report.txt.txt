@@ -1,0 +1,42 @@
+network traffic analysis report 
+oroject:unified cyber defense solution 
+task:network traffic analysis
+tool:wireshark 
+operating system:kali linux
+network interface:eth0
+test  protocle:ICMP
+test destination:1.1.1.1
+obersation
+1.captured network packets successfully .
+2.identified ICMP Echo request packets .
+3.identified ICMP Echo Reply packets.
+4.observed ipv4 packet information.
+
+
+ conclusion
+ wireshark successfully capture and displayed ICMP network  traffic for analysis.
+  ### Firewall Assessement 
+  UFW Service : Not Found 
+  Nftables:Firewall rules are configured 
+  Observation:Nftables ruleset was displayed successfilly.
+  ### system Log Assessment 
+  Tool:journalctl
+  Result:Resent System log entries displayed successfully.
+  obersation:Kali Linux system journal is available for monitoring system acitivity.
+### Evidence 
+Screenshot :wireshark -icmp-capture.png
+observation;
+wireshark captures ICMP Echo request andEcho reply Packets.
+This confirms that Cmp traffic was successfully captured and analyzed.
+### Log Monitoring Assessment
+
+Tool: journalctl
+
+1. Displayed the 10 most recent system log entries.
+2. Checked warning-level and more serious log messages.
+3. Observed system activity through Linux logs.
+
+Evidence: journal-monitoring.png
+
+Conclusion:
+System logs were successfully reviewed using journalctl.
